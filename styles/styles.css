@@ -1,0 +1,57 @@
+* { box-sizing: border-box;}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #353535;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 3rem 0 1rem 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  padding-bottom: .5rem;
+}
+
+i {
+  padding: 1rem 0 .5rem 0;
+  color: #d59cdd;
+}
+
+li {
+  list-style-image: none;
+  list-style-type: none;
+  float: left;
+  padding: 1.5rem;
+  width: 15rem;
+}
+
+li:hover {
+  background: #eaeaea;
+  opacity: 0.7;
+}
+
+li a {
+  text-decoration: none;
+}
+
+img.product-image {
+  width: 100%;
+}
+
+.product-title {
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding-bottom: .75rem;
+  color: #353535;
+}
+
+.price {
+  font-weight: 400;
+  color: #959595;
+  line-height: 1rem;
+}
